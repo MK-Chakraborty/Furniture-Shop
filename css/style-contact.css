@@ -1,0 +1,145 @@
+/* --------------------------------------- *\
+                    Fonts
+\* --------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+/* Light 300, Regular 400, Bold 700 */
+
+/* --------------------------------------- *\
+                    Utilities
+\* --------------------------------------- */
+
+ul,li {
+    list-style-type: none;
+}
+
+ol, ul {
+    padding-left: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    background-image: url(../images/background.jpg);
+}
+
+
+
+/* --------------------------------------- *\
+                Custom Css
+\* --------------------------------------- */
+
+/* ---- Navbar ---- */
+
+ul li.nav-item a::after {
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background: #af4c18;
+    top: 8px;
+    left: -8px;
+    content: '';
+}
+
+ul li:first-child.nav-item a::after {
+    height: 0;
+}
+
+.hotLine-color {
+    color: #fa8729;
+}
+
+.my-nav.active {
+    color: #fa8729 !important;
+}
+
+.nav-hr {
+    border: 1px solid #fa8729;
+    background: #fa8729;
+}
+
+.sc-input {
+    background: transparent !important;
+    border: 0px !important;
+}
+
+.sc-input::placeholder {
+    color: #ffffff96 !important;
+    font-size: 18px !important;
+}
+
+.fas{
+    color: #ffffffff !important;
+    font-size: 25px !important;
+    font-weight: 400;
+}
+
+
+/* ---- Banner ---- */
+
+.banner-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.over-banner {
+    position: relative;
+}
+
+.social-link {
+    position: absolute;
+    transform: rotate(270deg);
+    right: -40px;
+    top: 45px;
+}
+
+.social-link a{
+    background: #af4c18;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.slider-breadcrumb {
+    bottom: 5px;
+    left: 30px;
+}
+
+.slider-breadcrumb-item+.slider-breadcrumb-item::before {
+    float: left;
+    padding: 0 11px !important;
+    color: #ffffff;
+    content: "/";
+    font-size: 20px;
+}
+
+
+/*---- Contact us section ----*/
+.contact-us {
+    background: #ffffff;
+}
+
+.icon-color {
+    color: #f5893f !important;
+    font-size: 35px !important;
+}
+
+.btn-color {
+    background: #f5893f !important;
+}
+
+/* ---- footer section ---- */
+
+.site-footer {
+    background:rgba(32, 15, 8, 0.815);
+}
+
+.ft-copyright {
+    background: #f5893f;
+}

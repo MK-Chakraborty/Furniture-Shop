@@ -126,11 +126,35 @@ ul li:first-child.nav-item a::after {
     background: #ffffff;
 }
 
+.prod-img-padding {
+    padding: 85px;
+}
+
+.prod-img-cards:hover {
+    border: 2px solid #f5893f !important;
+}
+
+.zoom {
+    color: #f5893f !important;
+    font-size: 30px !important;
+}
+.zoom-img {
+    bottom: -5px;
+    left: 30px;
+    color: #f5893f;
+}
+
+.price-color,
 .section-margin a i.fas,
 .section-margin a {
     color: #fa8729 !important;
 }
 
+.btn-color {
+    background: #fa8729 !important;
+}
+
+.product-details-cotent hr,
 .section-margin hr {
     border: 3px solid #251202;
     background:#3d1d03;
